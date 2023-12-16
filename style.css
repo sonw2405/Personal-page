@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgba (55, 55, 55, 0.054);
+}
+
+.logo{
+    font-size: 38px;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.logo:hover{
+    transform: scale(1.3);
+}
+
+.navigation a{
+    font-size: 1.2em;
+    color:black;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.navigation a:hover{
+    color: #ff7300;
+    border-bottom: 3px solid white;
+}
+
+.btn-contact{
+    color: white;
+    text-decoration: none;
+    padding: 8px 25px;
+    background: #ff7300;
+    border-radius: 10px;
+    border: 2px solid #ff7300;
+    font-weight: 500;
+    transition: 0.3 ease; 
+}
+
+.btn-contact:hover{
+    transform: scale(1.1);
+    color: #ff7300;
+    background: white;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background :url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.content{
+    max-width: 800px;
+}
+
+.content h2{
+    font-size: 5em;
+}
+.content h2 span{
+    color: #ff7300;
+}
+
+.content h4{
+    font-size: 3em;
+}
+
+.content p{
+    font-size: 1.2em;
+    padding: 10px 0 40px 0;
+}
+
+.btn-group a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #ff7300;
+    border-radius: 10px;
+    border: 2px solid #ff7300;
+    font-weight: 500;
+    transition: 0.3 ease;
+}
+
+.btn-group a:hover{
+    color: #ff7300;
+    background-color: transparent;
+}
+.btn-group a:nth-child(2){
+    color: #ff7300;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px ;
+}
+.btn-group a:nth-child(2):hover{
+    color: white;
+    background: #ff7300;
+}
+
+.socal-icons{
+    position: absolute;
+    bottom: 100px;
+}
+.socal-icons a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #ff7300;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    outline: 2px solid rgb(255, 115, 0);
+    transition: 0.3s ease;
+}
+.socal-icons a:hover{
+    transform: translateY(10px) scale(1.5);
+}
+.socal-icons a li{
+    color: white;
+}
+
+img{
+    position: absolute;
+    right: 0;
+    height: 90%;
+    top: 50px;
+    right: 50px;
+}
